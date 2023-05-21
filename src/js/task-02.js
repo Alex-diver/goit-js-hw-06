@@ -7,7 +7,7 @@ const ingredients = [
   "Condiments",
 ];
 
-const ingredientsElement = document.createElement(`ingredients`);
+const ingredientsElement = document.createElement(`ul`);
 
 ingredients.forEach((ingredient) => {
   const li = document.createElement(`li`);
