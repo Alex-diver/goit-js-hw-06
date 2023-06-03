@@ -13,7 +13,7 @@ const images = [
   },
 ];
 
-const galleryEl = document.querySelector(".gallery");
+const galleryEl = document.querySelector("ul.gallery");
 
 const makeGallery = ({ url, alt }) =>
   `<li><img src="${url}" alt="${alt}"  width="480" height="300"></li>`;
